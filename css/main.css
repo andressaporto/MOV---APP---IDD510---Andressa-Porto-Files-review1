@@ -1,0 +1,990 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Muli');
+
+
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Muli';
+}
+
+/* Page 1 - Sign up page */
+
+.card {
+  border: none;
+  color: white;
+  background-color: white;
+  margin: 30px 0px;
+}
+
+.btn-circle.btn-xl {
+  background-color: #F9E8A0;
+  width: 70px;
+  height: 70px;
+  padding: 0px;
+  color: #FE057F;
+  font-size: 14px;
+  line-height: 1.33;
+  border: none;
+  border-radius: 35px;
+  margin: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align:middle;
+  font-weight: bold;
+}
+
+ /* Page 2 - Create Profile Page */
+     /* begin profile picture*/
+
+ .profile-pic {
+     max-width: 200px;
+     max-height: 200px;
+     display: block;
+ }
+
+ .file-upload {
+     display: none;
+ }
+ .circle {
+     border-radius: 1000px !important;
+     overflow: hidden;
+     width: 128px;
+     height: 128px;
+     border: 8px solid rgba(254, 5, 257, 1);
+     position:absolute;
+     top: 10px;
+
+ }
+ img {
+     max-width: 100%;
+     height: auto;
+ }
+ .p-image {
+   position: absolute;
+   top: 167px;
+   right: 30px;
+   color: #666666;
+   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+ }
+ .p-image:hover {
+   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+ }
+
+ .upload-button {
+   font-size: 1.2em;
+ }
+
+ .upload-button:hover {
+   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+   color: #999;
+ }
+
+    /* END profile Picture */
+
+.page-container {
+margin: 120px auto 0 auto;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-shadow:0 1px 4px rgba(0,0,0,.2);
+	text-align:center;
+}
+
+form {
+position:relative;
+width:305px;
+margin:15px auto 0 auto;
+text-align:center;
+
+}
+
+input {
+width:270px;
+height:42px;
+margin-top:0;
+padding:0 15px;
+background:#2d2d2d;
+background:rgba(45,45,45,.15);
+-moz-border-radius: 6px;
+-webkit-border-radius:6px;
+text-align:center;
+border-radius:6px;
+border:1px solid #3d3d3d;
+border:1px solid rgba(255,255,255,.15);
+-moz-box-shadow:0 2px 3px 0 rgba(0,0,0,.1) inset;
+-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+font-family: 'Muli';
+font-size:10px;
+color:#fff;
+text-shadow:0 1px 2px rgba(0,0,0,.1);
+-o-transition: all .2s;
+-moz-transition: all .2s;
+-webkit-transition: all .2s;
+-ms-transition: all .2s;
+}
+
+input:-moz-placeholder { color: #fff; }
+input:-ms-input-placeholder { color: #fff; }
+input::-webkit-input-placeholder { color: #fff; }
+
+input:focus {
+outline:none;
+-moz-box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+-webkit-box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+}
+
+.btn-circle.btn-xl.ok {
+
+  background-color: #F9E8A0;
+  width: 45px;
+  height: 45px;
+  padding: 0px;
+  color: #FE057F;
+  font-size: 14px;
+  line-height: 1.33;
+  border: none;
+  border-radius: 35px;
+  margin: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align:middle;
+  font-weight: bold;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {float: left;font-size: 16px;color: white;text-align: center;padding: 14px 16px;text-decoration: none;}
+
+.dropdown {float: left;overflow: hidden;}
+
+.dropdown .dropbtn {font-size: 16px;border: none;outline: none;color: white;padding: 14px 16px;background-color: inherit;}
+
+.navbar a:hover, .dropdown:hover .dropbtn {background-color: #F9E8A0;}
+
+.dropdown-content {display: none;position: absolute;background-color: #f9f9f9;width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+
+.dropdown-content a {float: none;color: black;padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Page 2 Signin */
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn{
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.form-control {
+  background-color: white;
+  border: none;
+
+}
+
+/*
+ * Card component
+ */
+.card.card-container.signup {
+    background-color: white;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: none;
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 0;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin #inputEmail,
+.form-signin #inputPassword {
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+    color: #FE057F;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form-signin .form-control:focus {
+    border-color: rgb(104, 145, 162);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+    /*background-color: #4d90fe; */
+    background-color: rgb(104, 145, 162);
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: #FE057F;
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: #FE057F;
+}
+
+  /* Page 6 - Your Orders*/
+
+  .btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  background-color: #F9E8A0;
+  border: none;
+}
+
+h2 {
+  color: #FE057F;
+  font-family: 'Fredoka One', sans-serif;
+  margin-left: 0;
+}
+
+h3 {
+  color: #FE057F;
+  font-family: 'Fredoka One', sans-serif;
+  margin-left: 5px;
+}
+
+hr {
+  color: #8C8C8C;
+}
+
+.imgorder {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+h6 {
+  color: #FE057F;
+}
+
+p {
+  color: #8C8C8C;
+}
+
+.card-header {
+    height: 50px;
+    background-color: white;
+    border-color: #fff;
+    border-radius: 0;
+}
+
+.glyphicon {
+  color: #FE057F;
+}
+
+/* Page 3 - googlemap */
+#googlemap {
+
+background-size: cover;
+
+}
+
+/* Sidebar over googlemaps */
+
+.wrapper {
+    display: block;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* top layer */
+    z-index: 9999;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.7);
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 998;
+    opacity: 0;
+    /* animate the transition */
+    transition: all 0.5s ease-in-out;
+}
+/* display .overlay when it has the .active class */
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 10px;
+}
+
+/*Page 8 Product Lists*/
+
+div.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #FE057F;
+}
+
+
+/* Top bar page3 - map */
+
+.navbar-toggler{
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  height: 80px;
+  outline: none;
+}
+.navbar-toggler:focus{
+  outline: none;
+}
+#navbarNav{
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  padding: 5px;
+}
+.nav-link{
+  font-family: 'Muli';
+  font-size: 18px;
+  font-weight:bolder;
+  color: #FE057F;
+}
+
+.navbar a {
+    float: left;
+    font-size: 18px;
+    color: #FE057F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Page 9 - Wish list */
+
+
+/*Page 16 settings*/
+
+
+form.form-settings {
+position:relative;
+width:305px;
+margin:0px auto 0 auto;
+text-align:left;
+
+}
+
+#inputname,#inputemailaddress,#inputphone,#inputpass{
+outline:none;
+-webkit-box-shadow:none;
+box-shadow:none;
+text-align: left;
+
+}
+
+
+form.form-payment {
+position:relative;
+width:305px;
+margin:0px auto 0 auto;
+text-align:left;
+
+}
+
+#card1v2,#card2v2{
+outline:none;
+-webkit-box-shadow:none;
+box-shadow:none;
+text-align: left;
+
+}
+
+/*Page17 - search bar*/
+
+* {box-sizing: border-box;}
+
+
+i.fa {
+  color: #FE057F;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    border-radius: 10px;
+  }
+
+}
+
+input.search{
+    direction: ltr;
+    height: 44px;
+    font-size: 16px;
+    color: #FE057F;
+}
+
+/*Page 18 Carousel*/
+
+.carousel-control-next-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/music-app-player-solid/32/Next-512.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/music-app-player-solid/32/Back-512.png);
+}
+
+h5.productseller {
+  color: #8C8C8C;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+}
+
+h3.productseller {
+  text-align: center;
+}
+
+p.productdescriptions {
+  text-align: center;
+}
+
+/*Page 22 Good deal!*/
+
+h3.finalpage {
+  text-align: center;
+
+}
+
+h6.finalpage {
+  text-align: center;
+  color: #606060;
+}
+
+.page22 {
+  background-color: #FFFFFF;
+}
+
+hr.linefinalpage {
+  color: #F9E8A0;
+  height: 3px;
+  width: 200px;
+  color: #F9E8A0;
+  background-color: #F9E8A0;
+  border: none;
+}
+
+/*page21*/
+
+img.volunteersprofile {
+  margin-right:auto;
+  margin-left:auto;
+}
+
+/*page19*/
+
+h5.price {
+  color: #606060;
+  font-family: 'Fredoka One', sans-serif;
+
+}
+
+h6.addavolunteer {
+  color: #606060;
+  margin-right: none;
+}
+
+h6.addcard {
+  color: #606060;
+  margin-right: none;
+}
+
+h6.usecois {
+  margin-bottom: 0px;
+}
+
+/*page11*/
+
+textarea {
+  border-color: #D1CFD0;
+  border-radius:10px;
+  font-family: "muli";
+  color: #606060;
+  border: none;
+  border-radius: 10px;
+
+
+}
+
+#submitproduct {
+  	display:block;
+  	text-align:center;
+    margin-left: 0px;
+  }
+
+  textarea:hover {
+    background-color: rgba(249,232,160,0.5);
+  }
+
+  textarea:focus, textarea:active, textarea.active, textarea:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#BSbtnsuccess {
+  border-color: #D1CFD0;
+  border-radius:10px;
+  font-family: "muli";
+  color: #606060;
+  border: none;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+
+#BSbtnsuccess:focus, #BSbtnsuccess:active, #BSbtnsuccess.active, #BSbtnsuccess:focus:active {
+background-image: none;
+outline: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+/*page2 v2*/
+
+#backgroundpage2 {
+  background-color: #FFFFFF;
+}
+
+
+
+#inputEmail:focus, #inputEmail:active, #inputEmail.active, #inputEmail:focus:active {
+background-image: none;
+outline: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#inputPassword:focus, #inputPassword:active, #inputPassword.active, #inputPassword:focus:active {
+background-image: none;
+outline: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+#inputPassword:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#inputEmail:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#inputEmail,#inputPassword {
+  box-shadow: none;
+}
+
+
+
+/*page 8*/
+
+.Myshoppingwishes:hover,
+.Myshoppingwishes:active,
+.Myshoppingwishes:focus {
+    color: #FE057F;
+}
+
+/*page 9*/
+
+#todo:focus, #todo:active, #todo.active, #todo:focus:active {
+background-image: none;
+outline: 2px;
+-webkit-box-shadow: none;
+box-shadow: none;
+font-family: 'muli';
+color: #FE057F;
+}
+
+#todo {
+  border-color: #FE057F;
+  border-radius:10px;
+  border: 2px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: none;
+  font-size: 10px;
+}
+
+#todo:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+input::placeholder {
+  font-family: "muli";
+  color: #FE057F;
+  font-size: 16px;
+}
+
+input.wishlistadd {
+  height: 35px;
+  text-align:left;
+  text-shadow: none;
+  font-family: 'muli';
+  color: #FE057F;
+}
+
+input.wishlistadd:focus {
+    font-family:'Muli';
+    color: #FE057F;
+    font-size: 16px;
+
+}
+
+/*review*/
+
+ul.wishlist {
+  font-family: 'muli';
+  color: #FE057F;
+  list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAADFBMVEXQ0dOqq6/////m5+jGyJimAAAATUlEQVQYlZ2QSQoAIAwDk/j/P9siNG4XnVxkCNIWagdCwwHfpZJNCgw0S5mSozbQtcmSLtJNxhcZbJKZbxmvzCSxTFRr1kyvp/M2XqsDLVEBUrHPaqAAAAAASUVORK5CYII=');
+}
+
+/*end review*/
+
+input[type=text] {
+  border: none;        /* Remove default borders */
+  padding: 4px 8px;
+  border-radius: 10px; /* Sadly outline does not round! therefore...*/
+}
+input[type=text]:focus{
+  outline: none;      /* Remove default outline and use border or box-shadow */
+  box-shadow: 0 0 0 2px orange; /* Full freedom. (works also with border-radius) */
+}
+
+.jeff-coins:hover,
+.jeff-coins:active,
+.jeff-coins:focus{
+    color: #FE057F;
+}
+
+/*page 16*/
+
+#inputemailaddress:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+
+/*page16 v2*/
+
+#inputname2,#inputemailaddress2,#inputphone2,#inputpass2{
+outline:none;
+-webkit-box-shadow:none;
+box-shadow:none;
+text-align: left;
+
+}
+
+#inputemailaddress2:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#inputname2:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#inputphone2:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#inputpass2:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#card1v2,#card2v2{
+outline:none;
+-webkit-box-shadow:none;
+box-shadow:none;
+text-align: left;
+
+}
+
+#card1v2:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#card2v2:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+.addcardpay {
+  text-align: left;
+}
+
+/*page 17*/
+
+#searchprod:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#searchprod{
+outline:none;
+-webkit-box-shadow:none;
+box-shadow:none;
+text-align: left;
+background-color: #FFFFFF;
+}
+
+
+/*page 19*/
+
+#cardchoice {
+outline:none;
+-webkit-box-shadow:none;
+box-shadow:none;
+text-align: left;
+background-color: #FFFFFF;
+border: none;
+border-radius: 10px;
+overflow-y: hidden;
+font-family: 'muli';
+}
+
+#cardchoice:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#checkyesorno {
+outline:none;
+-webkit-box-shadow:none;
+box-shadow:none;
+text-align: left;
+background-color: none;
+border: none;
+border-radius: 10px;
+overflow-y: hidden;
+font-family: 'muli';
+}
+
+#buttonsave {
+  margin-left: none;
+  padding-left: none;
+  align-content: left;
+}
+
+/*page24*/
+
+hr.listsearch {
+  color: #F9E8A0;
+  height: 1px;
+  width: 220px;
+  color: #F9E8A0;
+  background-color: #F9E8A0;
+  border: none;
+  margin-top: 0px;
+}
+
+/*page25*/
+
+ .addnewcardtitle2 {
+   text-align: center;
+ }
+
+ #inputnamecard,#inputnumbercard,#inputdatecard {
+ outline:none;
+ -webkit-box-shadow:none;
+ box-shadow:none;
+ text-align: center;
+ background-color: none;
+ border: none;
+ border-radius: 10px;
+ overflow-y: hidden;
+ font-family: 'muli';
+ }
+
+ #inputnamecard:hover {
+   background-color: rgba(249,232,160,0.5);
+ }
+
+ #inputnumbercard:hover {
+   background-color: rgba(249,232,160,0.5);
+ }
+
+ #inputdatecard:hover {
+   background-color: rgba(249,232,160,0.5);
+ }
+
+ #buttonaddcard {
+   align:center;
+   margin-right: auto;
+   margin-left: auto;
+ }
+
+ /*page 23*/
+
+ #sellerprofile {
+   align:center;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+
+/* Page 26 Rating Star Widgets Style */
+
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
+
+/*Maps markers*/
+
+#map {
+  height: 800px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+
+/*page 4 */
+
+.pinyellow,.pingray {
+  opacity : 0.15;
+}
