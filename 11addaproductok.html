@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
@@ -65,48 +66,58 @@
 
           <br />
           <br>
-          <h3>Jeff Coins</h3>
+          <h3>Add a product</h3>
 <hr>
 
-<img src="images/coin.png" alt="chat sarah" class="float-left" style="width:60px;height:auto;padding-right:10px;">
-<h6>My total</h6><p class="chattext" style="text-align:justify">540</p>
+<form class="addaproductmystore" style="width:100%;">
 
-<hr>
+<h6 class="padding-left addaproductmystore">Title</h6>
 
-<a class="jeff-coins" href="#">
-  <h6 id="toggle1">How to get coins</h6>
-</a>
-  <p id="coin1">
-    - Help other students = 10 coins (each)
-    <br />
-    - Make user reviews = 1 coin (each)
-  </p>
+<textarea required rows="2" cols="50" style="width:100%;text-align:right"></textarea>
+
+<h6 class="addaproductmystore">Description</h6>
+
+<textarea required rows="2" cols="50" style="width:100%;"></textarea>
+
+<h6 class="addaproductmystore">Price ($)</h6>
+
+<textarea required rows="2" cols="50" style="width:100%;"></textarea>
+<br>
+
+<!-- Upload image -->
+
+    <div class="form-group">
+        <h6 class="imagegallery">Image Gallery</h6>
+        <br>
+        <img src="images/gallerynoimagegray.png" alt="no photo" class="float-left" style="width:45px;height:auto;border-radius:70px;margin-right:10px;">
+        <img src="images/gallerynoimagegray.png" alt="no photo" class="float-left" style="width:45px;height:auto;border-radius:70px;margin-right:10px;">
+        <img src="images/gallerynoimagegray.png" alt="no photo" class="float-left" style="width:45px;height:auto;border-radius:70px;margin-right:10px;">
+        <img src="images/gallerynoimagegray.png" alt="no photo" class="float-left" style="width:45px;height:auto;border-radius:70px;margin-right:10px;">
+
+        <br />
+        <br>
+        <br>
+
+        <input type="file" id="BSbtnsuccess" style="width:100%;">
+    </div>
+
+<!-- Upload image ends here -->
+
+<input id=submitproduct class="submit ok btn btn-warning btn-circle btn-xl" type="submit" value="Save">
 
 
 
-<a class="jeff-coins" href="#">
-<h6 id="toggle2">How to spend my coins</h6>
-</a>
-<p id="coin2">
-  - Buy products in the MOV app
-  <br />
-  - Buy products at Jefferson stores
-  <br />
-  - 30 Jeff Coins = $10
-</p>
+</form>
 
 
-<a class="jeff-coins" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_link">
-<h6 class="coins"></h6>
-</a>
 
-<br />
     </div>
   </div>
 </div>
-        </div>
 
-    </div>
+
+
+<br>
 
 
 
@@ -117,8 +128,5 @@
     <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="js/bucket.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-
   </body>
       </html>

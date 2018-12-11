@@ -612,6 +612,14 @@ h6.addavolunteer {
   margin-right: none;
 }
 
+h6.addaproductmystore {
+  text-align: left;
+}
+
+h6.imagegallery {
+  text-align: left;
+}
+
 h6.addcard {
   color: #606060;
   margin-right: none;

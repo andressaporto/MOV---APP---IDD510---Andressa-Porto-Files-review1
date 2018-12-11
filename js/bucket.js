@@ -108,25 +108,6 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
         });
       }
 
-     /* Page 9 - List: add + delete items */
-
-
-
-      /* Page 11 upload image*/
-
-      
-
-
-/*Page 15 Toggle*/
-
-$(function() {
-
-    $('#title-toggle').click(function() {
-        $(this).next('#coin1').toggle();
-    });
-
-});
-
 /*Page 26 grading stars*/
 $(document).ready(function(){
 
@@ -247,3 +228,32 @@ for (count = 0; count < locations.length; count++) {
       }
 
     }
+
+
+
+    /*Toggle*/
+
+
+    $(function() {
+   $('#coin1').hide();
+   $('#toggle1').click(function() {
+       $(this).nextAll().each( function() {
+           if ($(this).filter('#toggle1').length) {
+              return false;
+           }
+           $(this).filter('#coin1').toggle();
+       });
+   });
+});
+
+$(function() {
+$('#coin2').hide();
+$('#toggle2').click(function() {
+   $(this).nextAll().each( function() {
+       if ($(this).filter('#toggle2').length) {
+          return false;
+       }
+       $(this).filter('#coin2').toggle();
+   });
+});
+});
