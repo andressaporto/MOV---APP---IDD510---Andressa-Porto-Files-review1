@@ -469,8 +469,11 @@ h4 {
     text-decoration: none;
 }
 
-/* Page 9 - Wish list */
+/* Page 4 */
 
+.divpin {
+  text-align: center;
+}
 
 /*Page 16 settings*/
 
@@ -710,6 +713,7 @@ box-shadow: none;
     color: #FE057F;
 }
 
+
 /*page 9*/
 
 #todo:focus, #todo:active, #todo.active, #todo:focus:active {
@@ -868,7 +872,7 @@ font-family: 'muli';
   background-color: rgba(249,232,160,0.5);
 }
 
-#checkyesorno {
+#yesorno1,#yesorno2,#yesorno3{
 outline:none;
 -webkit-box-shadow:none;
 box-shadow:none;

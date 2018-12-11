@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- delete item from the list -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -65,41 +67,35 @@
 
           <br />
           <br>
-          <h3>My own store</h3>
+          <h3>My shopping wishes</h3>
 <hr>
-<br>
 
+    <!-- List - add/delete items -->
 
-<img src="images/product1mystore.jpg" alt="desk" class="float-left" style="width:70px;height:auto;border-radius:70px;margin-right:10px;">
-<h6>Books - HTML and CSS
-  <img src="images/editicongray 2.png" alt="editicon" class="float-right" style="width:20px;height:auto;margin-left: 9px;padding-bottom:10px;">
-  <img src="images/trashicongray 2.png" alt="editicon" class="float-right" style="width:20px;height:auto;margin-left: 9px;padding-bottom:10px;">
-</h6><h3>$20</h3>
+<form autocomplete="off">
+    <div>
+        <input class="wishlistadd" type="text" style="width:200px;" placeholder="Add wish.." id="todo"><button id ="add" type="button" class="ok btn btn-warning btn-circle btn-xl">Ok!</button>
+    </div>
+
+</form>
+<ul class="wishlist">
+</ul>
+  <!-- List - add/delete items ends here -->
+
 <br />
-<hr class="listsearch">
 
-<img src="images/product2mystore.jpg" alt="lamp" class="float-left" style="width:70px;height:auto;border-radius:70px;margin-right:10px;">
-<h6>2 Chairs
-  <img src="images/editicongray 2.png" alt="editicon" class="float-right" style="width:20px;height:auto;margin-left: 9px;padding-bottom:10px;">
-  <img src="images/trashicongray 2.png" alt="editicon" class="float-right" style="width:20px;height:auto;margin-left: 9px;padding-bottom:10px;">
-</h6><h3>$15</h3>
-<br />
-<hr class="listsearch">
-
-<img src="images/product3mystore.png" alt="lamp" class="float-left" style="width:70px;height:auto;border-radius:70px;margin-right:10px;">
-<h6>10 Hangers
-  <img src="images/editicongray 2.png" alt="editicon" class="float-right" style="width:20px;height:auto;margin-left: 9px;padding-bottom:10px;">
-  <img src="images/trashicongray 2.png" alt="editicon" class="float-right" style="width:20px;height:auto;margin-left: 9px;padding-bottom:10px;">
-</h6><h3>Free</h3>
-<br>
-<hr>
-<h6 class="addcard">Add a product<img src="images/plusicon.png" alt="plusicon" class="float-right addaproduct" style="width:20px;height:auto;margin-right:225px;"></h6>
-
-
-
+<h6 class="float-left"> 4 Chairs  <img src="images/xicon.gif" alt="editicon" class="float-left" style="width:13px;height:auto;margin-right: 6px;padding-bottom:10px;">
+</h6>
     </div>
   </div>
 </div>
+
+
+
+<br>
+
+
+
 
     <!-- Our Code Ends Here -->
     <!-- Optional JavaScript -->
@@ -108,6 +104,5 @@
     <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="js/bucket.js"></script>
   </body>
       </html>
