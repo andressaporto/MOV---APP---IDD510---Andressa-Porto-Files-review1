@@ -18,8 +18,8 @@ body {
 
 .btn-circle.btn-xl {
   background-color: #F9E8A0;
-  width: 70px;
-  height: 70px;
+  width: 55px;
+  height: 55px;
   padding: 0px;
   color: #FE057F;
   font-size: 14px;
@@ -34,53 +34,7 @@ body {
   font-weight: bold;
 }
 
- /* Page 2 - Create Profile Page */
-     /* begin profile picture*/
-
- .profile-pic {
-     max-width: 200px;
-     max-height: 200px;
-     display: block;
- }
-
- .file-upload {
-     display: none;
- }
- .circle {
-     border-radius: 1000px !important;
-     overflow: hidden;
-     width: 128px;
-     height: 128px;
-     border: 8px solid rgba(254, 5, 257, 1);
-     position:absolute;
-     top: 10px;
-
- }
- img {
-     max-width: 100%;
-     height: auto;
- }
- .p-image {
-   position: absolute;
-   top: 167px;
-   right: 30px;
-   color: #666666;
-   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
- }
- .p-image:hover {
-   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
- }
-
- .upload-button {
-   font-size: 1.2em;
- }
-
- .upload-button:hover {
-   transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
-   color: #999;
- }
-
-    /* END profile Picture */
+/*page 2*/
 
 .page-container {
 margin: 120px auto 0 auto;
@@ -186,7 +140,6 @@ box-shadow:
 
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Page 2 Signin */
 
 .card-container.card {
     max-width: 350px;
@@ -211,6 +164,7 @@ box-shadow:
 /*
  * Card component
  */
+
 .card.card-container.signup {
     background-color: white;
     /* just in case there no content*/
@@ -226,34 +180,9 @@ box-shadow:
     box-shadow: none;
 }
 
-.profile-img-card {
-    width: 96px;
-    height: 96px;
-    margin: 0 auto 0;
-    display: block;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-
 /*
  * Form styles
  */
-
-.reauth-email {
-    display: block;
-    color: #404040;
-    line-height: 2;
-    margin-bottom: 10px;
-    font-size: 14px;
-    text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 .form-signin #inputEmail,
 .form-signin #inputPassword {
