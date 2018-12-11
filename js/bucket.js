@@ -114,18 +114,7 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
       /* Page 11 upload image*/
 
-      $('#BSbtndanger').filestyle({
-				buttonName : 'btn-danger',
-                buttonText : ' File selection'
-			});
-			$('#BSbtnsuccess').filestyle({
-				buttonName : 'btn-success',
-                buttonText : ' Open'
-			});
-			$('#BSbtninfo').filestyle({
-				buttonName : 'btn-info',
-                buttonText : ' Select a File'
-			});
+      
 
 
 /*Page 15 Toggle*/
