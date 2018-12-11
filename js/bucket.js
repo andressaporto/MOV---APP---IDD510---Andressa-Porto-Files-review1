@@ -64,7 +64,7 @@ function responseMessage(msg) {
 
 function myMap() {
 
-  var center = {lat: 40.023132, lng: -75.189160}; //40.023132, -75.189160
+  var center = {lat: 40.020727, lng: -75.182992}; //40.020727, -75.182992
 
   var locations = [
 
