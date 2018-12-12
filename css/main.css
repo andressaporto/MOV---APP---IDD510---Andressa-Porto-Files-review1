@@ -935,3 +935,10 @@ hr.listsearch {
 .pinpink2{
   opacity : 0.15;
 }
+
+
+.imgcenterpage {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
