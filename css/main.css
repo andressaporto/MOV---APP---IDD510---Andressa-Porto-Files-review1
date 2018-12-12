@@ -538,7 +538,7 @@ h5.price {
 
 h6.addavolunteer {
   color: #606060;
-  margin-right: none;
+  margin-right: 0px;
 }
 
 h6.addaproductmystore {
@@ -551,7 +551,7 @@ h6.imagegallery {
 
 h6.addcard {
   color: #606060;
-  margin-right: none;
+  margin-right: 0px;
 }
 
 h6.usecois {
@@ -818,7 +818,7 @@ outline:none;
 -webkit-box-shadow:none;
 box-shadow:none;
 text-align: left;
-background-color: none;
+background-color: transparent;
 border: none;
 border-radius: 10px;
 overflow-y: hidden;
@@ -826,9 +826,8 @@ font-family: 'muli';
 }
 
 #buttonsave {
-  margin-left: none;
-  padding-left: none;
-  align-content: left;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 /*page24*/
@@ -854,7 +853,7 @@ hr.listsearch {
  -webkit-box-shadow:none;
  box-shadow:none;
  text-align: center;
- background-color: none;
+ background-color: transparent;
  border: none;
  border-radius: 10px;
  overflow-y: hidden;
@@ -874,7 +873,7 @@ hr.listsearch {
  }
 
  #buttonaddcard {
-   align:center;
+   display:block;
    margin-right: auto;
    margin-left: auto;
  }
@@ -882,7 +881,7 @@ hr.listsearch {
  /*page 23*/
 
  #sellerprofile {
-   align:center;
+   display: block;
    margin-left: auto;
    margin-right: auto;
  }
