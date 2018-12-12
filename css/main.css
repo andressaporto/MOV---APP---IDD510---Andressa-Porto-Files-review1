@@ -432,7 +432,7 @@ text-align:left;
 
 }
 
-#card1v2,#card2v2{
+#card1v2,#card2v2,#card2v3{
 outline:none;
 -webkit-box-shadow:none;
 box-shadow:none;
@@ -756,7 +756,7 @@ text-align: left;
   background-color: rgba(249,232,160,0.5);
 }
 
-#card1v2,#card2v2{
+#card1v2,#card2v2,#card2v3{
 outline:none;
 -webkit-box-shadow:none;
 box-shadow:none;
@@ -769,6 +769,10 @@ text-align: left;
 }
 
 #card2v2:hover {
+  background-color: rgba(249,232,160,0.5);
+}
+
+#card2v3:hover {
   background-color: rgba(249,232,160,0.5);
 }
 
